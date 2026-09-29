@@ -6,3 +6,5 @@ Estou aprendendo a criar sites atráves do curso de HTML 5 e CSS 3 do Curso em V
 Estou muito animado pois já consegui fazer o meu primeiro site responsivo falando sobre como surgiu a logo do Android!
 
 Assim que finalizar os 5 módulos desse curso, vou aprender lógica de programação e Java Script!
+
+Esse texto está sendo escrito apenas para servir como mais uma alteração para o meu GitHub
