@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 0;
+}
+
+header{
+    background: linear-gradient(to bottom, #06cf5a, #015e0e);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+header > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header > h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: #015e0e;
+    background-position: center;
+    align-items: center;
+    height: 50px;
+}
+
+main{
+    display: inline-block;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+main > h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Android;
+    color: #011f05;
+}
+
+main > h2{
+    font-family: Android;
+    text-align: center;
+    background: linear-gradient(to right, #06cf5a, #015e0e);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #011f05;
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Tudo o que for 'id' em HTML corresponde por '#' em CSS
+   Tudo o que for 'class' em HTML, em CSS é '.'
+*/
+
+body{
+    background-color: #585C82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #0D1242;
+}
+
+h1#principal{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: #423400;
+}
+
+.basico{
+    background-color: lightgreen;
+    border-radius: 20px;
+    color: rgb(5, 78, 5);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intermediario{
+    background-color: rgba(255, 255, 0, 0.671);
+    border-radius: 20px;
+    color: rgb(94, 94, 0);
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.avancado{
+    background-color: lightcoral;
+    border-radius: 20px;
+    color: rgb(110, 7, 7);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+

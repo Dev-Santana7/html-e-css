@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: lightgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: darkred;
+            color: white;
+            padding: 10px;
+        }
+        
+        header > h1{
+            display: flex;
+            justify-content: center;
+        }
+
+        a{
+            display: flexbox;
+            align-items: baseline;
+            justify-content: center;
+            padding-right: 5px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        h2{
+            padding-left: 10px;
+        }
+
+        p{
+            padding-left: 10px;
+        }
+
+        footer{
+            background-color: darkred;
+            width: auto;
+            height: 100px;
+            border-top: 1px solid black;
+        }
+
+        footer > p{
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Notícias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia in molestias illo, quod quas recusandae fugiat eum ipsum laboriosam iste fugit quae pariatur? Totam exercitationem cupiditate quasi sint dolore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur incidunt perferendis cumque quia odit a molestiae vero, maiores nulla architecto. Corrupti aperiam quo tempora sunt qui error veniam ipsam necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo voluptates et ipsa autem, asperiores tempora ullam, exercitationem eligendi obcaecati, sint rem voluptatum dolores eos consequuntur. Nihil architecto voluptates quam.</p>
+            <aside>Escrito por: Marcos Antonio Santana Lopes</aside>
+        </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Santana<sup>&reg;</sup></p>
+    </footer>
+</body>
+</html>
