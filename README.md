@@ -7,4 +7,4 @@ Estou muito animado pois já consegui fazer o meu primeiro site responsivo falan
 
 Assim que finalizar os 5 módulos desse curso, vou aprender lógica de programação e Java Script!
 
-Esse texto está sendo escrito apenas para servir como mais uma alteração para o meu GitHub
+Esse texto está sendo escrito apenas para servir como mais uma alteração para o meu GitHub SDASDWDASDW

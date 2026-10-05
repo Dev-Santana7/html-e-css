@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos Backgrounds</title>
+    <style>
+
+        /*Para poder se apresentar a imagem inteirta no site sem aparecer Barras deve se usar a propriedade CCS: background-size, com o valor: cover*/
+
+        body{
+            height: 100vh;
+            /*background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - Background: color > image > position > repeat > [size] > attachment*/
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+
+        main{
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+
+
+
+        /*Para mudar a posição de onde a imagem começa se usa a prorpiedade de CSS: Background-Position!*/
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Background</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni reprehenderit ducimus laudantium optio quis quaerat obcaecati vero sequi doloremque harum? Error unde quas expedita quo dolores architecto eum omnis saepe! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis cumque quam reiciendis voluptatum debitis repellat repudiandae perferendis? Dolorum, obcaecati dolor, rem, dolore repudiandae voluptatem fuga non odit blanditiis soluta quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste provident ducimus excepturi dignissimos necessitatibus enim error laborum, tempora omnis nihil repellat praesentium itaque vitae explicabo alias fugit aperiam. Natus?</p>
+    </main>
+</body>
+</html>
